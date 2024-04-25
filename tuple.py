@@ -34,3 +34,5 @@ Motorcycle = namedtuple('Motorcycle', ['model', 'color', 'year'])
 args = ['Suzuki', 'black', 2024]
 bike = {'model': 'BMW','color': 'red','year': 2024}
 print(Motorcycle(**bike))
+
+
