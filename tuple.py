@@ -23,3 +23,14 @@ print(rect.width * rect.height)
 Patient = namedtuple('Patient', ['name', 'age', 'gender', 'blood_type'])
 patient = Patient('Sherali', 35, 'male', '1')
 print(patient.name, patient.age, patient.gender, patient.blood_type)
+
+
+Helicopter = namedtuple('helicopter', ['title', 'year', 'company'], defaults=[2016, 'Airbus Helicopters'])
+hec = Helicopter('Shoxsulton,s')
+print(hec)
+
+
+Motorcycle = namedtuple('Motorcycle', ['model', 'color', 'year'])
+args = ['Suzuki', 'black', 2024]
+bike = {'model': 'BMW','color': 'red','year': 2024}
+print(Motorcycle(**bike))
